@@ -1,4 +1,6 @@
 # tools for bad.robots
+A set of simple tools to make life easier. All available to Maven via the [bad.robot.repo](/maven)
+ 
 ## bad.robot.http
 
 A quick way to fire build a HTTP client;
