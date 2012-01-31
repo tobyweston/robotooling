@@ -14,9 +14,9 @@ A quick way to build a HTTP client and work with the HTTP verbs;
 
 Will create a HTTP client, perform a `GET` against the URL and populate a simple `HttpResponse` object that can be interrogated.
 
-## bad.robot.ddd
+## bad.robot.domain
 
-A set of classes useful for development focusing on the domain (al la Evans et al). Probably the best bit is advocating **value types** and passing around the 'simple' types again;
+A set of classes useful for development focusing on domain driven development (al la Evans et al). Probably the best bit is advocating **value types** and never passing around the 'simple' types again;
 
     DirectoryNumber number = directoryNumber("07786 114232");
 
