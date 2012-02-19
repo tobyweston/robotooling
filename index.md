@@ -26,6 +26,10 @@ A way of collecting Concordion tests in one or more 'overview' style pages. Show
 
 See the [manual](http://badrobot.googlecode.com/svn/trunk/bad.robot/concordion-ant-task/manual/Overview.html)
 
+## bad.robot.excel
+
+A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and test sheets.
+
 ## bad.robot.plain-skin
 
 An overly plain skin for Maven generated sites.
