@@ -34,9 +34,9 @@
 
 <p>A set of simple tools to make life easier. All available to Maven via the <a href="/maven" title="">bad.robot.repo</a>
  
-</p><h2>bad.robot.http</h2>
+</p><h2>bad.robot.simple-http</h2>
 
-<p>A quick way to build a HTTP client and work with the HTTP verbs;
+<p>A simple way to build a HTTP client and work with the HTTP verbs;
 </p>
 <pre><code>    HttpResponse response = anApacheClient().with(username, password).get(url,</code>
 <code>        headers(</code>
@@ -44,7 +44,7 @@
 <code>        )</code>
 <code>    );</code>
 </pre>
-<p>Will create a HTTP client, perform a <code>GET</code> against the URL and populate a simple <code>HttpResponse</code> object that can be interrogated.
+<p>Will create a HTTP client, perform a <code>GET</code> with an <code>Accept</code> header and populate a simple <code>HttpResponse</code> object that can be interrogated. We have <code>Matchers</code> to help with your testing too!
 </p>
 <h2>bad.robot.domain</h2>
 
@@ -58,7 +58,7 @@
 </p>
 <p>See the <a href="http://badrobot.googlecode.com/svn/trunk/bad.robot/concordion-ant-task/manual/Overview.html" title="">manual</a>
 </p>
-<h2>bad.robot.excel</h2>
+<h2>bad.robot.simple-excel</h2>
 
 <p>A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and test sheets.
 </p>
