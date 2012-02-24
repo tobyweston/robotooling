@@ -2,9 +2,9 @@
 
 A set of simple tools to make life easier. All available to Maven via the [bad.robot.repo](/maven)
  
-## bad.robot.http
+## bad.robot.simple-http
 
-A quick way to build a HTTP client and work with the HTTP verbs;
+A simple way to build a HTTP client and work with the HTTP verbs;
 
         HttpResponse response = anApacheClient().with(username, password).get(url,
             headers(
@@ -12,7 +12,7 @@ A quick way to build a HTTP client and work with the HTTP verbs;
             )
         );
 
-Will create a HTTP client, perform a `GET` against the URL and populate a simple `HttpResponse` object that can be interrogated.
+Will create a HTTP client, perform a `GET` with an `Accept` header and populate a simple `HttpResponse` object that can be interrogated. We have `Matchers` to help with your testing too!
 
 ## bad.robot.domain
 
@@ -26,7 +26,7 @@ A way of collecting Concordion tests in one or more 'overview' style pages. Show
 
 See the [manual](http://badrobot.googlecode.com/svn/trunk/bad.robot/concordion-ant-task/manual/Overview.html)
 
-## bad.robot.excel
+## bad.robot.simple-excel
 
 A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and test sheets.
 
