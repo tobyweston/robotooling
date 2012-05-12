@@ -46,6 +46,23 @@
 
 <p>A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and test sheets.
 </p>
+<p>For example
+</p>
+<pre>
+<code>   HSSFWorkbook workbook = getWorkbook("original.xls");</code>
+<code>   new PoiWorkbookMutator(workbook)</code>
+<code>      .replaceCell(coordinate(A, 1), "Hello")</code>
+<code>      .replaceCell(coordinate(B, 1), "World");</code>
+
+<code>   assertThat(workbook, is(sameWorkBook(getWorkbook("expected.xls"))));</code>
+</pre>
+<p>A break in the matcher would show something like</p>
+<pre>
+<code>   java.lang.AssertionError:</code>
+<code>      Expected: value 'World' at Cell B1</code>
+<code>      got: value 'world'</code>
+</pre>
+
 <h2>bad.robot.plain-skin</h2>
 
 <p>An overly plain skin for Maven generated sites.</p>
