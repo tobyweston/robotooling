@@ -2,11 +2,10 @@
 <metadata>
   <groupId>bad.robot</groupId>
   <artifactId>simple-http</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130327185620</lastUpdated>
+    <lastUpdated>20130830091123</lastUpdated>
   </versioning>
 </metadata>
