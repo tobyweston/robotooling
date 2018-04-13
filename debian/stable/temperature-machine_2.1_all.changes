@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Fri, 13 Apr 2018 16:19:00 +0100
+Source: temperature-machine
+Binary: temperature-machine
+Architecture: all
+Version: 2.1
+Distribution: unknown
+Urgency: low
+Maintainer: Toby Weston <toby@temperature-machine.com>
+Changed-By: Toby Weston <toby@temperature-machine.com>
+Description:
+ temperature-machine - temperature-machine
+Changes:
+ temperature-machine (2.1) unknown; urgency=low
+Checksums-Sha1:
+ 3f5a116957deb98087158fff8c3d246d2d22bcbd 41016740 temperature-machine_2.1_all.deb
+Checksums-Sha256:
+ f669b7e14dd0da5cc2686e8ea3c59070ac6ee63068876e7c4ac23136a7ba6522 41016740 temperature-machine_2.1_all.deb
+Files:
+ f0ddc1a07118d0329202a66f2a295085 41016740 java optional temperature-machine_2.1_all.deb
