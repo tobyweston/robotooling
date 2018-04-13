@@ -4,6 +4,7 @@ git commit -m "updated"
 
 ./update-directory-indeces.sh 
 git add maven
+git add debian
 git commit -m "update folder indices"
 
 ./update-nexus-index.sh
