@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>tools for bad.robots</title>
     <meta name="author" content="toby">
     <meta name="generator" content="iA Writer for Mac 1.2">
     <meta name="description" content="java tools for bad.robots">
-    <meta name="keywords" content="java tools, http client, excel, poi, tools for bad robots, bad.robot, ddd, concordion">
+    <meta name="keywords"
+          content="java tools, http client, excel, poi, tools for bad robots, bad.robot, ddd, concordion">
 
     <link rel="stylesheet" href="basic.css">
     <script src="analytics.js"></script>
-  
-  </head>
-  <body>
-    <h1>tools for bad.robots</h1>
 
-<p>A set of simple tools to make life easier. All available to Maven via the <a href="/maven" title="">bad.robot.repo</a> and occasionally blogged about at <a href="http://baddotrobot.com">bad.robot</a>.
- 
-</p><h2>bad.robot.simple-http</h2>
+</head>
+<body>
+<h1>bad.robot Repositories</h1>
+
+<p>Maven and debian repositories for some random projects.</p>
+<p>
+<li>Maven <a href="/maven">repository</a></li>
+<li>Debian <a href="/debian">repository</a> (home to the <a href="http://temperature-machine.com">temperature-machine</a>)
+</li>
+</p>
+
+<h1>Maven</h1>
+
+<p>The <a href="/maven">Maven</a> repository contains a set of simple tools to make life a bit easier. All available to Maven via the. These are getting old now and were
+    occasionally blogged about at <a href="http://baddotrobot.com">bad.robot</a>.
+</p>
+<p>A summary of a few below:</p>
+<h2>bad.robot.simple-http</h2>
 
 <p>A simple way to build a HTTP client and work with the HTTP verbs;
 </p>
@@ -28,23 +40,28 @@
 <code>        )</code>
 <code>    );</code>
 </pre>
-<p>Will create a HTTP client, perform a <code>GET</code> with an <code>Accept</code> header and populate a simple <code>HttpResponse</code> object that can be interrogated. We have <code>Matchers</code> to help with your testing too!
+<p>Will create a HTTP client, perform a <code>GET</code> with an <code>Accept</code> header and populate a simple <code>HttpResponse</code>
+    object that can be interrogated. We have <code>Matchers</code> to help with your testing too!
 </p>
 <h2>bad.robot.domain</h2>
 
-<p>A set of classes useful for development focusing on domain driven development (al la Evans et al). Probably the best bit is advocating <strong>value types</strong> and never passing around the 'simple' types again;
+<p>A set of classes useful for development focusing on domain driven development (al la Evans et al). Probably the best
+    bit is advocating <strong>value types</strong> and never passing around the 'simple' types again;
 </p>
 <pre><code>DirectoryNumber number = directoryNumber(&quot;07786 114232&quot;);</code>
 </pre>
 <h2>bad.robot.concordion-ant-task</h2>
 
-<p>A way of collecting Concordion tests in one or more 'overview' style pages. Show the overall results and the list of tests in one place, grouped however you like.
+<p>A way of collecting Concordion tests in one or more 'overview' style pages. Show the overall results and the list of
+    tests in one place, grouped however you like.
 </p>
-<p>See the <a href="http://badrobot.googlecode.com/svn/trunk/bad.robot/concordion-ant-task/manual/Overview.html" title="">manual</a>
+<p>See the <a href="http://badrobot.googlecode.com/svn/trunk/bad.robot/concordion-ant-task/manual/Overview.html"
+             >manual</a>
 </p>
 <h2>bad.robot.simple-excel</h2>
 
-<p>A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and test sheets.
+<p>A quick way to work with Excel sheets from Java; a set of intuitive builders and value types to quickly modify and
+    test sheets.
 </p>
 <p>For example
 </p>
@@ -66,5 +83,5 @@
 <h2>bad.robot.plain-skin</h2>
 
 <p>An overly plain skin for Maven generated sites.</p>
-  </body>
+</body>
 </html>
