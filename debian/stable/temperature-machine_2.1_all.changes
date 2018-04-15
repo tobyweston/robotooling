@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Fri, 13 Apr 2018 17:02:05 +0100
+Date: Sun, 15 Apr 2018 22:08:08 +0100
 Source: temperature-machine
 Binary: temperature-machine
 Architecture: all
@@ -13,8 +13,8 @@ Description:
 Changes:
  temperature-machine (2.1) unknown; urgency=low
 Checksums-Sha1:
- 90560144d057d29db63408fb275ddaeefa16e808 41015724 temperature-machine_2.1_all.deb
+ 378e497abbfa2672aefe6989f1bd3abdf79e90c3 9552770 temperature-machine_2.1_all.deb
 Checksums-Sha256:
- 1683eacabf93c75699fcbc0e5f7db2cc2f952a2f9c9de22926bec6eb98947dd9 41015724 temperature-machine_2.1_all.deb
+ bd907210e306e9df8c3cda8707c761496594a809bf8344d9cade3d8d4f1af7ad 9552770 temperature-machine_2.1_all.deb
 Files:
- 058eb0f46f0a9ad2ce1aa59da1b8ee2a 41015724 java optional temperature-machine_2.1_all.deb
+ 5f2185d49aa82caa31b689851ab0eabe 9552770 java optional temperature-machine_2.1_all.deb
