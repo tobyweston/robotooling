@@ -21,7 +21,7 @@ for DIR in $(find ./maven -type d && find ./debian -type d); do
             fi
         fi
         
-        printf "<a href=\"%s\">%s</a> <span>%s</span>\n" "${FILE}" "${FILE}" "${TIMESTAMP}"
+        printf "<a href=\"%s\">%s</a> <span class=\"timestamp\">%s</span>\n" "${FILE}" "${FILE}" "${TIMESTAMP}"
     done
 
     echo -e "</pre>\n</body>\n</html>"
